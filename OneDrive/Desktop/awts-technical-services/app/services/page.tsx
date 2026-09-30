@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import Footer from "@/components/Footer";
 import GlobalHero from "@/components/GlobalHero";
 import CtaBanner from "@/components/CTABanner";
+import FAQ from "@/components/FAQ";
 
 interface ServiceDetail {
   id: string;
@@ -24,15 +24,15 @@ const servicesList: ServiceDetail[] = [
     title: "Interior & Exterior Wall Painting",
     shortDesc:
       "Premium wall painting, villa repaint, waterproofing coat, and crack restoration services across Dubai.",
-    image:
-      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1000&auto=format&fit=crop",
+    image:"/images/painting-services-in-dubai.webp",
+      // "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1000&auto=format&fit=crop",
     highlights: [
       "Villa & Apartment Repainting",
       "Dust-free Sanding & Surface Prep",
       "Moisture-Resistant Outer Coating",
       "Jotun & Premium Paint Brands",
     ],
-    pricingHint: "Free Inspection & Quote",
+    pricingHint: "Free Inspection & Discussion",
   },
   {
     id: "general-property-maintenance",
@@ -40,8 +40,7 @@ const servicesList: ServiceDetail[] = [
     title: "Comprehensive Property Maintenance",
     shortDesc:
       "Complete home maintenance including AC servicing, leak repair, electrical checks, and general fixes.",
-    image:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1000&auto=format&fit=crop",
+     image:"https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1000&auto=format&fit=crop",
     highlights: [
       "24/7 Emergency Repairs",
       "AC Filter Cleaning & Gas Refill",
@@ -56,8 +55,8 @@ const servicesList: ServiceDetail[] = [
     title: "Tile Fixing, Grouting & Interlock",
     shortDesc:
       "Precision floor & wall tile fitting, bathroom renovation, and outdoor interlock installation.",
-    image:
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1000&auto=format&fit=crop",
+    image:"/images/tile-fixing.png",
+      // "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1000&auto=format&fit=crop",
     highlights: [
       "Ceramic, Porcelain & Marble Fitting",
       "Bathroom & Kitchen Remodeling",
@@ -72,8 +71,8 @@ const servicesList: ServiceDetail[] = [
     title: "Wood Flooring & Custom Carpentry",
     shortDesc:
       "Parquet floor installation, door fixing, custom shelving, and wooden furniture polishing.",
-    image:
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?q=80&w=1000&auto=format&fit=crop",
+    image:"/images/wood flooring.png",
+      // "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?q=80&w=1000&auto=format&fit=crop",
     highlights: [
       "Wooden Parquet Installation",
       "Door Lock & Hinge Maintenance",
@@ -190,7 +189,7 @@ export default function ServicesPage() {
                   <a
                     href={`https://wa.me/971569413314?text=Hi%20AWTS,%20I%20am%20interested%20in%20your%20${encodeURIComponent(
                       service.title
-                    )}%20service.%20Please%20provide%20a%20quote.`}
+                    )}%20service.%20Please%20provide%20your%20details.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full btn-whatsapp py-3 sm:py-3.5 px-6 font-semibold justify-center shadow-md hover:shadow-emerald-500/20 text-xs sm:text-sm"
@@ -204,11 +203,14 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+        <FAQ/>
+
       {/* Quick Contact CTA Banner */}
         <CtaBanner title="Need Custom Contracting or Maintenance in Dubai?" description="Call us directly or message on WhatsApp to get on-site estimation." />
 
       {/* Footer Section */}
-      <Footer />
+        <Footer />
     </div>
   );
 }

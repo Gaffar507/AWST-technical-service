@@ -137,13 +137,12 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.75rem 1.5rem;
     background-color: var(--color-brand-primary);
     color: #FFFFFF;
     font-weight: 600;
     font-size: 0.875rem;
     border-radius: 0.5rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); */
     transition: all 0.2s ease-in-out;
   }
   .btn-primary:hover {
@@ -156,13 +155,12 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    padding: 0.75rem 1.5rem;
     background-color: var(--color-whatsapp);
     color: #FFFFFF;
     font-weight: 600;
     font-size: 0.875rem;
     border-radius: 0.5rem;
-    box-shadow: 0 4px 6px -1px rgba(37, 211, 102, 0.3);
+    /* box-shadow: 0 4px 6px -1px rgba(37, 211, 102, 0.3); */
     transition: all 0.2s ease-in-out;
   }
   .btn-whatsapp:hover {

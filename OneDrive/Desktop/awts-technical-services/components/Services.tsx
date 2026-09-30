@@ -38,7 +38,7 @@ const servicesData: ServiceItem[] = [
     badgeColor: "bg-[#2A9D8F]/10 text-[#2A9D8F] border-[#2A9D8F]/30",
     badgeText: "24/7 Support",
     image:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop",
+      "/images/maintenance.jpg",
     features: [
       "AC Maintenance & Cleaning",
       "Plumbing & Leak Repairs",
@@ -107,7 +107,7 @@ export default function Services() {
               className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group"
             >
               {/* Card Image Banner */}
-              <div className="relative h-52 w-full overflow-hidden bg-slate-100">
+              <div className="relative h-70 w-full overflow-hidden bg-slate-100">
                 <Image
                   src={service.image}
                   alt={service.title}

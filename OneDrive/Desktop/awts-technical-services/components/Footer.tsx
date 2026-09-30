@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { MapPin, Phone, MessageCircle } from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {
@@ -11,13 +11,13 @@ export default function Footer() {
           <div>
             <div>
                 <div className="mb-1 flex items-start justify-start">
-                    <Image
-                    src="/awts-logo.jpeg"
-                    alt="A.W.T.S Logo"
-                    width={100}
-                    height={100}
-                    className="mb-4 m-0 rounded-[5px]"
-                    />
+                <Image
+                  src="/awts-logo.jpeg"
+                  alt="A.W.T.S Logo"
+                  width={100}
+                  height={100}
+                  className="mb-4 m-0 rounded-[5px] h-auto w-auto"
+                />
                 </div>
             </div>
             
@@ -67,11 +67,11 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-slate-400">
               <li className="flex justify-between">
                 <span>Monday - Saturday:</span>
-                <span className="text-slate-200">8:00 AM - 8:00 PM</span>
+                <span className="text-slate-300">8:00 AM - 8:00 PM</span>
               </li>
               <li className="flex justify-between">
                 <span>Sunday:</span>
-                <span className="text-slate-200">Emergency Support</span>
+                <span className="text-slate-300">Emergency Support</span>
               </li>
               <li className="pt-2 text-xs text-slate-500">
                 WhatsApp responses available 24/7
@@ -84,29 +84,34 @@ export default function Footer() {
             <h4 className="text-white text-base font-semibold mb-4">
               Get in Touch
             </h4>
-            <div className="space-y-3 text-sm">
-              <p className="flex items-start gap-2">
-                <span className="text-[#0077B6]">📍</span>
-                <span>P.O. Box : 185894, Ayal Nasir, Deira, Dubai - U.A.E</span>
-              </p>
-              <p className="flex items-center gap-2">
-                <span className="text-[#0077B6]">📞</span>
-                <a href="tel:+971569413314" className="hover:text-white transition-colors">
-                  +971 56 941 3314
-                </a>
-              </p>
-              <p className="flex items-center gap-2">
-                <span className="text-[#0077B6]">💬</span>
-                <a
-                  href="https://wa.me/971569413314"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-emerald-400 transition-colors"
-                >
-                  WhatsApp Quick Quote
-                </a>
-              </p>
-            </div>
+
+<div className="space-y-3 text-sm">
+  <p className="flex items-start gap-2.5">
+    <MapPin className="w-4 h-4 text-[#0077B6] shrink-0 mt-0.5" />
+    <span>P.O. Box : 185894, Ayal Nasir, Deira, Dubai - U.A.E</span>
+  </p>
+  
+  <p className="flex items-center gap-2.5">
+    <Phone className="w-4 h-4 text-[#0077B6] shrink-0" />
+    <a href="tel:+971569413314" className="hover:text-white transition-colors">
+      +971 56 941 3314
+    </a>
+  </p>
+  
+  <p className="flex items-center gap-2.5">
+    <MessageCircle className="w-4 h-4 text-[#0077B6] shrink-0" />
+    
+    <a
+      href="https://wa.me/971569413314"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-emerald-400 transition-colors"
+    >
+      WhatsApp Quick Quote
+    </a>
+  </p>
+</div>
+
           </div>
 
         </div>

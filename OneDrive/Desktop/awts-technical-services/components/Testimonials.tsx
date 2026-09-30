@@ -24,7 +24,7 @@ const reviews = [
 
 export default function Testimonials() {
   return (
-    <section className="py-20 text-black">
+    <section className="py-20 text-black  border-t border-gray-300">
       <div className="container-custom">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <span className="text-sm font-bold tracking-wider text-[#0077B6] uppercase mb-2 block">
