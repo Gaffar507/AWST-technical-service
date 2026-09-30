@@ -234,13 +234,13 @@ export default function Navbar() {
                 href="https://wa.me/971569413314?text=Hi%20AWTS%20Technical%20Services,%20I%20need%20a%20quote..."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-whatsapp w-full text-center justify-center"
+                className="btn-whatsapp py-2 px-1 w-full text-center justify-center"
               >
                 Chat on WhatsApp
               </a>
               <a
                 href="tel:+971569413314"
-                className="btn-primary w-full text-center justify-center bg-[#002D62]"
+                className="btn-primary py-2 px-1 w-full text-center justify-center bg-[#002D62]"
               >
                 Call Us Now
               </a>

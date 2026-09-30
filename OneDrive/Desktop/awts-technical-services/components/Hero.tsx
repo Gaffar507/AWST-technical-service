@@ -11,7 +11,7 @@ export default function Hero() {
           alt="Technical Services Background"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover object-center hidden sm:block"
         />
         <div className="absolute inset-0 z-10 pointer-events-none" />
       </div>

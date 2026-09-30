@@ -52,14 +52,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${jakarta.variable} light`}>
-<body className="bg-white text-slate-900 antialiased min-h-screen flex flex-col">
-        {/* Global Navigation Bar */}
-        <Navbar />
+<html
+  lang="en"
+  data-scroll-behavior="smooth"
+  className={`scroll-smooth light ${inter.variable} ${jakarta.variable}`}
+>
+  <body className="bg-white text-slate-900 antialiased min-h-screen flex flex-col">
+    {/* Global Navigation Bar */}
+    <Navbar />
 
-        {/* Page Main Content */}
-        <main className="grow min-h-screen">{children}</main>
-      </body>
-    </html>
+    {/* Page Main Content */}
+    <main className="grow min-h-screen">{children}</main>
+  </body>
+</html>
   );
 }
