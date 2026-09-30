@@ -231,7 +231,7 @@ export default function Navbar() {
 
             <div className="pt-2 flex flex-col gap-2">
               <a
-                href="https://wa.me/971569413314?text=Hi%20AWTS%20Technical%20Services,%20I%20need%20a%20quote..."
+                href="https://wa.me/971569413314?text=Hi%20AWTS%20Technical%20Services,%20I%20need%20a%20quick%20discussion."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-whatsapp py-2 px-1 w-full text-center justify-center"

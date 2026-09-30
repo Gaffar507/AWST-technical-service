@@ -189,7 +189,7 @@ export default function ServicesPage() {
                   <a
                     href={`https://wa.me/971569413314?text=Hi%20AWTS,%20I%20am%20interested%20in%20your%20${encodeURIComponent(
                       service.title
-                    )}%20service.%20Please%20provide%20your%20details.`}
+                    )}%20service.%20Please%20provide%20your%20full%20details.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full btn-whatsapp py-3 sm:py-3.5 px-6 font-semibold justify-center shadow-md hover:shadow-emerald-500/20 text-xs sm:text-sm"
