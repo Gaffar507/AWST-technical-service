@@ -53,7 +53,7 @@ export default function Navbar() {
           <div className="container-custom flex justify-between items-center">
             <div className="flex items-center gap-4 sm:gap-6">
               <a
-                href="tel:+971569413314"
+                href="tel:+971 54 769 0757"
                 className="hover:text-[#F4A261] transition duration-200 flex items-center gap-1.5"
               >
                 <svg
@@ -69,7 +69,7 @@ export default function Navbar() {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                <span>+971 56 941 3314</span>
+                <span>+971 54 769 0757</span>
               </a>
               <a
                 href="mailto:Nowshedadil320@gmail.com"
@@ -142,7 +142,7 @@ export default function Navbar() {
           {/* Action Button (Desktop) */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://wa.me/971569413314?text=Hi%20AWTS%20Technical%20Services,%20I%20need%20a%20help..."
+              href="https://wa.me/971547690757?text=Hi%20AWTS%20Technical%20Services,%20I%20need%20a%20help."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-whatsapp text-xs py-2.5 px-4"
@@ -231,7 +231,7 @@ export default function Navbar() {
 
             <div className="pt-2 flex flex-col gap-2">
               <a
-                href="https://wa.me/971569413314?text=Hi%20AWTS%20Technical%20Services,%20I%20need%20a%20quick%20discussion."
+                href="https://wa.me/971547690757?text=Hi%20AWTS%20Technical%20Services,%20I%20need%20a%20quick%20discussion."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-whatsapp py-2 px-1 w-full text-center justify-center"
@@ -239,7 +239,7 @@ export default function Navbar() {
                 Chat on WhatsApp
               </a>
               <a
-                href="tel:+971569413314"
+                href="tel:+971547690757"
                 className="btn-primary py-2 px-1 w-full text-center justify-center bg-[#002D62]"
               >
                 Call Us Now

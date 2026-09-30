@@ -93,8 +93,8 @@ export default function Footer() {
   
   <p className="flex items-center gap-2.5">
     <Phone className="w-4 h-4 text-[#0077B6] shrink-0" />
-    <a href="tel:+971569413314" className="hover:text-white transition-colors">
-      +971 56 941 3314
+    <a href="tel:+971547690757" className="hover:text-white transition-colors">
+      +971 54 769 0757
     </a>
   </p>
   
@@ -102,7 +102,7 @@ export default function Footer() {
     <MessageCircle className="w-4 h-4 text-[#0077B6] shrink-0" />
     
     <a
-      href="https://wa.me/971569413314"
+      href="https://wa.me/971547690757?text=Hi%20AWTS%20Technical%20Services,%20I%20want%20to%20get%20a%20quick%20discussion..."
       target="_blank"
       rel="noopener noreferrer"
       className="hover:text-emerald-400 transition-colors"

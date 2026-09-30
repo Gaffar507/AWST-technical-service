@@ -58,7 +58,7 @@ export default function Hero() {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
               <a
-                href="https://wa.me/971569413314?text=Hi%20AWTS%20Technical%20Services,%20I%20want%20to%20get%20a%20quick%20discussion..."
+                href="https://wa.me/971547690757?text=Hi%20AWTS%20Technical%20Services,%20I%20want%20to%20get%20a%20quick%20discussion..."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-whatsapp py-3 px-1 sm:py-3.5 sm:px-6 text-base font-semibold justify-center hover:shadow-emerald-500/20"
@@ -70,7 +70,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="tel:+971569413314"
+                href="tel:+971547690757"
                 className="btn-primary py-3 px-1 sm:py-3.5 sm:px-6 text-base font-semibold justify-center bg-[#0077B6] hover:bg-[#002D62] transition duration-200"
               >
                 <svg
@@ -86,7 +86,7 @@ export default function Hero() {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                <span>Call +971 56 941 3314</span>
+                <span>Call +971 54 769 0757</span>
               </a>
             </div>
           </div>

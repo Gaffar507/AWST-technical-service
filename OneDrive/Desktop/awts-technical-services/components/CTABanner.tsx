@@ -17,7 +17,7 @@ export default function CtaBanner({title, description}: {title: string, descript
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://wa.me/971569413314?text=Hi%20AWTS,%20I%20want%20to%20get%20a%20quick%20discussion%20for%20my%20property."
+            href="https://wa.me/971547690757?text=Hi%20AWTS,%20I%20want%20to%20get%20a%20quick%20discussion%20for%20my%20property."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-whatsapp py-3 px-1 sm:py-3.5 sm:px-6 text-base font-semibold w-full sm:w-auto hover:shadow-emerald-500/20"
@@ -26,10 +26,10 @@ export default function CtaBanner({title, description}: {title: string, descript
           </a>
 
           <a
-            href="tel:+971569413314"
+            href="tel:+971547690757"
             className="btn-primary py-3 px-1 sm:py-3.5 sm:px-6 text-base font-semibold bg-[#0077B6] hover:bg-sky-600 transition duration-200 w-full sm:w-auto"
           >
-            Call +971 56 941 3314
+            Call +971 54 769 0757
           </a>
         </div>
       </div>

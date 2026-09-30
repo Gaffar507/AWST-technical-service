@@ -187,7 +187,7 @@ export default function ServicesPage() {
 
                 <div className="p-5 sm:p-8 pt-0">
                   <a
-                    href={`https://wa.me/971569413314?text=Hi%20AWTS,%20I%20am%20interested%20in%20your%20${encodeURIComponent(
+                    href={`https://wa.me/971547690757?text=Hi%20AWTS,%20I%20am%20interested%20in%20your%20${encodeURIComponent(
                       service.title
                     )}%20service.%20Please%20provide%20your%20full%20details.`}
                     target="_blank"

@@ -153,7 +153,7 @@ export default function Services() {
 
                 {/* Card Direct WhatsApp Action */}
                 <a
-                  href={`https://wa.me/971569413314?text=Hi%20AWTS,%20I%20am%20interested%20in%20your%20${encodeURIComponent(
+                  href={`https://wa.me/971547690757?text=Hi%20AWTS,%20I%20am%20interested%20in%20your%20${encodeURIComponent(
                     service.title
                   )}%20services.`}
                   target="_blank"
